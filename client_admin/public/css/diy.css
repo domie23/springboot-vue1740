@@ -1,0 +1,125 @@
+.sign_in {
+   /* 界定盒子大小即为边框大小 */
+   box-sizing: border-box;
+   /* 高度为可视化 */
+   height: 100vh;
+   /* 内边框 */
+   padding: .5rem;
+   /* 宽度 */
+   width: 100% !important;
+   /* 背景图片 */
+   background: url(../img/bg.jpg) no-repeat !important;
+   /* 背景图大小 */
+   background-size: 100% 100% !important;
+   /* position: relative; */
+   /* background-image: repeating-radial-gradient(#fff, rgb(79, 224, 75) 10%, rgb(243, 244, 247) 15%) !important; */
+
+ }
+ .sign_in h1{
+	 margin-bottom: 20px;
+ }
+ /* 左右 */
+ 
+ .form.p_4 {
+   padding: 5px !important;
+   float: right;
+   width: 165px;
+  
+   border: 1px solid #7c7575;
+   border-radius: 10px;
+   
+ }
+ 
+ .form.p_4 .el-form-item {
+   margin-bottom: 0 !important;
+ }
+ 
+ .form.p_4 .el-row .el-col-lg-8 {
+   width: 100% !important;
+ }
+ 
+ .form.p_4 .el-row .el-col:nth-last-child(2) {
+   margin-bottom: 30px !important;
+ }
+ 
+ .form.p_4 .el-row .el-col-24,
+ .form.p_4 .el-ro .wel-col-xs-24,
+ .form.p_4 .el-row .el-col-sm-12,
+ .form.p_4 .el-rowel-col-lg-6 {
+   width: 100% !important;
+ }
+ 
+ .el-main .el-table,
+ .el-main .mt {
+   width: calc(100% - 170px) !important;
+ /* margin-right: 20px; */
+ 
+ }
+ 
+ /* 重置按钮 */
+ .el-main .el-button--default {
+ 
+  
+   margin: 0 !important;
+   margin-right: 5px !important;
+  
+ 
+ }
+ 
+ .el-main .el-button--default:hover {
+   color: #7c7575
+ }
+ 
+ /* 添加按钮 */
+ .el-main .el-button--default.el-button--primary,
+ .el-main .el-button--primary {
+  
+  
+   margin: 0 !important;
+   margin-right: 8px !important;
+    margin-bottom: 5px !important;
+	
+ }
+ 
+ /* 删除按钮 */
+ .el-main .el-button--danger.el-button {
+ 
+   margin-left: 12px;
+ 
+   margin: 0 !important;
+   margin-bottom: 5px !important;
+ }
+ #app .el-button.el-button--small.is-plain.el-button--primary{
+ /* 	margin-left: 20px !important; */
+ 	margin-bottom: 5px !important;
+ }
+
+ .el-image{
+ 	height: 100%;
+ 	width: 100%;
+ }
+ .el-avatar--circle img{
+ 	height: 100% !important;
+ 	width: 100% !important;
+ }
+ .action_right {
+   float: left !important;
+ }
+ .item-ltb{
+	 display: none;
+ }
+ .sign_in .el-form{
+	 margin-top: 100px !important;
+ }
+.el-button--success {
+    color: #FFF;
+    background-color: #67C23A;
+    border-color: #67C23A;
+    margin-bottom: 5px !important;}
+	.geetest_box_title{
+		margin-right: 28px !important;
+	}
+	.register_wrap img{
+		width: 100% !important;
+		height: 100% !important;
+	}
